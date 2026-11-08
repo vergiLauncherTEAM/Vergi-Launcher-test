@@ -535,7 +535,7 @@ var logEl=document.getElementById("log"),inEl=document.getElementById("q"),hist=
 document.getElementById("aimode").textContent=(ASK_ENDPOINT||GEMINI_KEY)?"Yapay zekâ modu":"Bilgi tabanı modu";
 function add(role,text){var d=document.createElement("div");d.className="msg "+role;d.textContent=text;logEl.appendChild(d);logEl.scrollTop=logEl.scrollHeight}
 // Doğrudan Gemini modu (anahtar sayfada görünür, bkz. GEMINI_KEY notu). Başarısız olursa bilgi tabanına döner.
-var GEMINI_KEY = "";
+var GEMINI_KEY = "AQ.Ab8RN6J6TSc1IDE5XPvJbuNvhpm6n2NlvDpFHOUrpri4nCfb9A";
 var GEMINI_MODEL = "gemini-3.5-flash";
 async function geminiReply(){
   try{
